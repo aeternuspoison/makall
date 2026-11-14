@@ -1,0 +1,18 @@
+{
+  "version": "0.5",
+  "notas": [
+    "Visual novo: servidores no dock, canais e salas em abas e mensagens em balões",
+    "Mais fácil de ler e usar: letras maiores, mais contraste e botões maiores",
+    "Convide seus amigos do Makall para um servidor direto pelo app",
+    "Makall para Linux: instalador .deb direto no site",
+    "Na call, quando a conexão fica instável o vídeo mostra \"Carregando…\" em vez do botão de play",
+    "Celular: botão para trocar o som da call entre viva-voz e telefone (e fone com fio ou Bluetooth, se estiver conectado); no modo telefone a tela apaga ao encostar no ouvido"
+  ],
+  "apk": "",
+  "data": "2026-11-13T21:33:18.5190656-03:00",
+  "sha256": "106c2fa2710ce14aad766495cbaf04f173da2ae2a31441dcde5c92849bc513cd",
+  "apkBytes": 5748523,
+  "deb": "https://makall-a1017.web.app/Makall.deb",
+  "debBytes": 107019664,
+  "debSha256": "a759cdd9b327d0c491203d4030178f7055cb70cdf78a2aa359a7a07bfb2560c4"
+}

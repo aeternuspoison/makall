@@ -1,0 +1,19 @@
+Makall - versão web (0.5) pronta para o Vercel
+
+Está tudo pronto, não precisa compilar nada:
+- /            site de download (Android, Windows e Linux)
+- /app/        o Makall no navegador (dá para instalar como app no PC)
+- vercel.json  as mesmas proteções de segurança do site atual (CSP, HSTS, anti-clonagem em iframe etc.)
+
+Como publicar
+1. Pelo GitHub: suba esta pasta num repositório e, no Vercel, "Add New > Project" > importe o repositório.
+   Em "Framework Preset" escolha "Other", deixe "Build Command" vazio e "Output Directory" como "." (ponto).
+2. Ou pelo terminal, dentro desta pasta: npx vercel --prod
+
+Depois de publicar
+- No Firebase (console.firebase.google.com > projeto makall-a1017 > Authentication > Settings >
+  Authorized domains), adicione o endereço do Vercel (ex.: makall.vercel.app).
+- O instalador do Linux (Makall.deb, 102 MB) continua sendo baixado do site do Firebase;
+  o botão do Linux já aponta para lá.
+- O app avisa de versão nova olhando o site do Firebase. Quando sair uma versão nova,
+  é preciso publicar esta pasta de novo no Vercel com os arquivos novos.

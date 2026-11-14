@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#05070d">
+<meta name="description" content="Baixe o Makall: chamadas, servidores e conversa com os amigos. Android, Windows e Linux.">
+<title>Makall — baixar</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="site.css">
+<script src="site.js" defer></script>
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+<header class="top">
+  <a class="brand" href="#"><img src="logo.png" alt="" width="36" height="36"><span>Makall</span></a>
+  <span class="ver" id="ver">versão …</span>
+</header>
+
+<main>
+  <section class="hero">
+    <img class="hero-logo" src="logo.png" alt="Logo do Makall" width="112" height="112">
+    <h1>Chama a galera.<br><em>Do seu jeito.</em></h1>
+    <p class="lead">Calls com voz, câmera e tela, servidores, figurinhas e conversa — feito para jogar com os amigos.</p>
+    <a class="cta" href="#baixar">Baixar o Makall</a>
+  </section>
+
+  <section id="baixar" class="downloads">
+    <article class="dl" id="dl-android">
+      <div class="dl-head"><span class="ico" aria-hidden="true">📱</span><div><h2>Android</h2><p class="muted">Celular ou tablet · Android 7 ou mais novo</p></div></div>
+      <a class="btn primary" id="apk" rel="noopener" aria-disabled="true">Baixar para Android <small id="apksize"></small></a>
+      <ol class="steps">
+        <li>Toque em <b>Baixar para Android</b> e abra o arquivo <b>Makall.apk</b>.</li>
+        <li>Se o Android pedir, permita <b>instalar apps desta fonte</b> (só para o navegador que você usou).</li>
+        <li>Toque em <b>Instalar</b>. Pronto!</li>
+      </ol>
+      <p class="note">Já tem o Makall? Baixe e instale por cima: suas conversas continuam lá.</p>
+    </article>
+
+    <article class="dl" id="dl-pc">
+      <div class="dl-head"><span class="ico" aria-hidden="true">💻</span><div><h2>Windows</h2><p class="muted">PC ou notebook · Chrome ou Edge</p></div></div>
+      <a class="btn primary" id="pcopen" href="app/" target="_blank" rel="noopener">Instalar no PC</a>
+      <ol class="steps">
+        <li>Clique em <b>Instalar no PC</b>: o Makall abre numa aba nova.</li>
+        <li>Na barra de endereço, clique no ícone <b>Instalar</b> <span class="kbd">⊕</span> (ou no menu <b>⋮ → Instalar Makall</b>).</li>
+        <li>Pronto: o Makall ganha ícone na área de trabalho e abre em janela própria.</li>
+      </ol>
+      <p class="note">Leve, sem arquivo para baixar, e <b>se atualiza sozinho</b> sempre que sair versão nova.</p>
+    </article>
+
+    <article class="dl" id="dl-linux">
+      <div class="dl-head"><span class="ico" aria-hidden="true">🐧</span><div><h2>Linux</h2><p class="muted">Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin · 64 bits</p></div></div>
+      <a class="btn primary" id="deb" href="Makall.deb" download rel="noopener">Baixar para Linux <small id="debsize"></small></a>
+      <ol class="steps">
+        <li>Clique em <b>Baixar para Linux</b> e abra o arquivo <b>Makall.deb</b> com dois cliques.</li>
+        <li>Na tela de instalação, clique em <b>Instalar</b> e digite a senha do computador. (Pelo terminal: <code>sudo apt install ./Makall.deb</code>)</li>
+        <li>Pronto: o <b>Makall</b> aparece no menu de aplicativos.</li>
+      </ol>
+      <p class="note">Usa Fedora, Arch ou outro? <a href="app/" target="_blank" rel="noopener">Instale pelo navegador</a> (Chrome, Chromium, Edge ou Brave): funciona igual e se atualiza sozinho.</p>
+    </article>
+  </section>
+
+  <section class="news">
+    <h2>Novidades da versão <span id="ver2">…</span></h2>
+    <ul id="notas"><li class="muted">Carregando…</li></ul>
+    <p class="muted small" id="quando"></p>
+  </section>
+
+  <section class="safe">
+    <h2>Seguro para baixar</h2>
+    <div class="safe-grid">
+      <div><b>🔒 Conexão protegida</b><p>O site e o app só conversam por conexão criptografada (HTTPS).</p></div>
+      <div><b>✍️ Assinatura própria</b><p>O APK é assinado com a chave do Makall: ninguém consegue instalar um “Makall falso” por cima do seu.</p></div>
+      <div><b>🧾 Confira o arquivo</b><p>Código SHA-256 do APK desta versão:<br><code id="sha">…</code></p><p id="debshaw" hidden>Do instalador do Linux:<br><code id="debsha">…</code></p></div>
+      <div><b>🛡️ Seus dados</b><p>Conversas e servidores ficam protegidos por regras: só quem participa consegue ver.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <img src="logo.png" alt="" width="22" height="22"> Makall · feito para jogar com os amigos
+</footer>
+</body>
+</html>
